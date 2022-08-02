@@ -1,18 +1,21 @@
-import threading
+from concurrent.futures import ThreadPoolExecutor # 将线程池导入
+import random
+def task(num):
+    return random.randint(0, 999)
 
-num = 0
+res = []
 
-lock = threading.RLock()
+pool = ThreadPoolExecutor(10)
 
-def task():
-    with lock: #自动加锁 基于上下文管理，内部自动运行 acquire 和 release
-        global num
-        for i in range(1000000):
-            num += 1
-    print(num)
 
-for i in range(2):
-    t = threading.Thread(target=task)
-    t.start()
-    # 1000000
-    # 2000000 运行正常
+for i in range(50,100):
+    t = pool.submit(task, i)
+    res.append(t.result())
+
+pool.shutdown(True)
+
+print(res)
+# [831, 125, 241, 162, 767, 3, 689, 774, 869, 697, 799, 718,
+# 663, 746, 651, 747, 496, 95, 220, 831, 905, 108, 161, 771,
+# 501, 517, 278, 763, 1, 397, 206, 333, 691, 242, 329, 502, 143,
+# 765, 756, 238, 227, 117, 1, 49, 586, 356, 412, 424, 658, 550]
