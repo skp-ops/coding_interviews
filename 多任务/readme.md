@@ -1,11 +1,11 @@
 ### python进程和线程
 #### 目录
 * [线程和进程](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E6%A6%82%E8%BF%B0/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.py)
-* [GIL锁(global interpreter lock)]()
+* [GIL锁(global interpreter lock)](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E6%A6%82%E8%BF%B0/GIL%E9%94%81.py)
 * 线程
-  * [多线程开发]()
-  * [线程安全]()
-  * [线程锁]()
+  * [多线程开发](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E7%BA%BF%E7%A8%8B/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%BC%80%E5%8F%91.py)
+  * [线程安全](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E7%BA%BF%E7%A8%8B/%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8.py)
+  * [线程锁](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E7%BA%BF%E7%A8%8B/%E7%BA%BF%E7%A8%8B%E9%94%81.py)
   * [死锁]()
   * [线程池]()
   * [单例模式]()
