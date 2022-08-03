@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="325bdb20-ad70-4e81-9d9e-2f31e7f63723" name="变更" comment="" />
+    <list default="true" id="325bdb20-ad70-4e81-9d9e-2f31e7f63723" name="变更" comment="变更" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +39,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.test (1)">
-    <configuration name="并发编程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="进程模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="多任务" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,11 +47,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/概述" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/进程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/概述/并发编程.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/进程/进程模式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,10 +168,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.单例模式" />
-        <item itemvalue="Python.线程安全" />
+        <item itemvalue="Python.进程模式" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.并发编程" />
       </list>
     </recent_temporary>
   </component>

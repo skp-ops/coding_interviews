@@ -3,6 +3,7 @@
 GIL锁
 global interpreter lock 全局解释器锁是Cpython解释器特有的一个东西
 让一个进程中同一时刻只能有一个线程可以被CPU调用
+这就导致了python线程的并发无法实现
 
 '''
 

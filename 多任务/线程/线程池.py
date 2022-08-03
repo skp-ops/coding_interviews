@@ -48,7 +48,7 @@ pool.shutdown(True) # 等待线程池中的任务执行完毕后，再开始执�
 
 x = pool.submit(func1,args)
 x.add_done_callback(func2) # 完成func1之后，将func1返回的参数加入到func2进行执行
-
+import threading
 from concurrent.futures import ThreadPoolExecutor # 将线程池导入
 
 def task(num):
@@ -60,6 +60,8 @@ def task(num):
 
 def finish(response):
     print('task completed!', response.result())
+    print(threading.current_thread())
+
 
 # 创建线程池，最多维护10个线程。
 pool = ThreadPoolExecutor(10)
