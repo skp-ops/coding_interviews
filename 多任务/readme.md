@@ -14,6 +14,6 @@
   * [进程模式](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E8%BF%9B%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E6%A8%A1%E5%BC%8F.py)
   * [进程常见功能](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E8%BF%9B%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E5%B8%B8%E8%A7%81%E5%8A%9F%E8%83%BD.py)
   * [进程之间的数据共享](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E8%BF%9B%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB.py)
-  * [进程锁](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E8%BF%9B%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%94%81.py)
+  * [进程锁](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E8%BF%9B%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E6%B1%A0.py)
   * [进程池](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E8%BF%9B%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%94%81.py)
 * [协程](https://github.com/skp-ops/coding_interviews/blob/main/%E5%A4%9A%E4%BB%BB%E5%8A%A1/%E5%8D%8F%E7%A8%8B.py)
